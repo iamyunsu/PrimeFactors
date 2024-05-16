@@ -10,7 +10,7 @@ public:
 	vector<int> expected;
 };
 TEST_F(PrimeFixture, Of1) {
-	expected = {1};
+	expected = {};
 	EXPECT_EQ(expected, prime_factor.of(1));
 }
 TEST_F(PrimeFixture, Of2) {
