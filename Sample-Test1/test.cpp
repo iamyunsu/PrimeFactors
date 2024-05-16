@@ -1,6 +1,5 @@
-#include "pch.h"
+﻿#include "pch.h"
 
-TEST(TestCaseName, TestName) {
+TEST(PrimeFactors, PrimeTest) {
   EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
 }
